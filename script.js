@@ -430,6 +430,11 @@ Class_21
 
 // function expration
 
+
+
+
+
+/*
 var whatDoYouDo = function(job, firstName) {
 	switch(job) {
 		case 'teacher':
@@ -448,6 +453,77 @@ console.log( whatDoYouDo('teacher', 'Jhon'));
 console.log( whatDoYouDo('driver', 'Jane'));
 console.log( whatDoYouDo('designer', 'Mark'));
 console.log( whatDoYouDo('retire', 'Martin'));
+*/
+
+
+
+/*****************************
+Class_22
+* Arrays
+*/
+
+// Initialize New Array
+var names = ['Jhon', 'Mark', 'Jane'];
+var years = [1990, 1969, 1948];
+
+console.log(names[2]);
+console.log(names.length);
+
+
+// mutated array data
+names[1]= 'Ben';
+names[names.length] = 'Marry';
+console.log(names);
+
+// Difference Data type
+
+
+var jhon =['Jhon', 'Smith', 1990, 'designer', false];
+
+jhon.push('blue');
+jhon.unshift('Mr.')
+console.log(jhon);
+
+jhon.pop(); 
+jhon.pop(); 
+jhon.shift(); 
+console.log(jhon);
+
+
+console.log(jhon.indexOf(1990));
+console.log(jhon.indexOf(120));
+
+
+var isDesigner = jhon.indexOf('designer')=== -1 ? 'Jhon is not a designer.' : "Jhon is a designer."
+console.log(isDesigner);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
