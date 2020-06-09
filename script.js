@@ -304,6 +304,9 @@ Operators
 // falsy values: undefiend, null, 0, '', NaN
 // truthy values: NOT falsy values
 
+
+
+/*
 var height;
 height = 23;
 
@@ -319,6 +322,8 @@ if (height || height ===0){
 if (height == '23') {
 	console.log ('The == operator does type coercion')
 }
+
+*/
 
 
 
@@ -341,6 +346,8 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 GOOD LUCK 😀
 */
 
+
+/*
 var scoreJohn = (89 + 120 + 103) / 3; 
 var scoreMike = (116 + 94 + 123) / 3;
 var scoreMarry = (97 + 134 + 105) / 3;
@@ -359,7 +366,7 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMarry){
 	}
 
 
-
+*/
 
 
 
@@ -373,6 +380,39 @@ if (scoreJohn > scoreMike) {
 }
 
 */
+
+
+/*****************************
+Class_20
+* Functions
+*/
+
+
+function calculateAge(birthYear) {
+	return  2018 - birthYear;
+}
+
+var ageJhon = calculateAge(1990); 
+var ageMike = calculateAge(1948); 
+var ageJane = calculateAge(1969); 
+console.log(ageJhon, ageMike, ageJane);
+
+
+function yearsUntilRetairment(year, firstName) {
+	var age = calculateAge(year);
+	var retirement = 65 - age;
+
+	if (retirement > 0) {	
+		console.log(firstName + ' retires in ' + retirement + ' years.')
+		} else {
+			console.log( firstName + ' already retired.')
+		}
+}
+
+yearsUntilRetairment(1990, 'Jhon');
+yearsUntilRetairment(1948, 'Mike');
+yearsUntilRetairment(1969, 'Jane');
+
 
 
 
