@@ -386,7 +386,10 @@ if (scoreJohn > scoreMike) {
 Class_20
 * Functions
 */
+ 
 
+
+ /*
 
 function calculateAge(birthYear) {
 	return  2018 - birthYear;
@@ -414,7 +417,37 @@ yearsUntilRetairment(1948, 'Mike');
 yearsUntilRetairment(1969, 'Jane');
 
 
+*/
 
+
+/*****************************
+Class_21
+* Function Statements and Expressions
+*/
+
+// function declaration
+// function whatDoYouDo(job, firstName) {}
+
+// function expration
+
+var whatDoYouDo = function(job, firstName) {
+	switch(job) {
+		case 'teacher':
+			return firstName + ' teaches kids how to code.';
+			case 'driver':
+			return firstName + ' drive a cab in UK.';
+			case 'designer':
+			return firstName + ' designe beautiful websites';
+			default: 
+			return firstName + ' does something else.';
+
+	}
+}
+
+console.log( whatDoYouDo('teacher', 'Jhon'));
+console.log( whatDoYouDo('driver', 'Jane'));
+console.log( whatDoYouDo('designer', 'Mark'));
+console.log( whatDoYouDo('retire', 'Martin'));
 
 
 
