@@ -228,7 +228,7 @@ else {
  /******************************
 		16. The Ternary Operator and Switch
  *****************************************/
-
+/*
  var firstName = 'Jhon';
  var age = 17;
 //ternary operator
@@ -239,7 +239,7 @@ else {
 var drink = age >=18 ? 'Beer' : 'Juice'
 console.log(drink);
 
-/*
+
 if (age >=18){
 	var drink = 'Beer';
 }else {
@@ -250,6 +250,9 @@ console.log(drink);
 
 //Switch Statement
 
+
+
+/*
 var job = 'cop';
 switch(job) {
 	case 'teacher':
@@ -286,7 +289,36 @@ switch(true){
 		 console.log(firstName + ' is a man.')
 }
 
+*/
 
+
+
+
+
+
+/* **************************
+Class_17 Truthy and Falsy Values and Equality
+Operators
+******************************/
+
+// falsy values: undefiend, null, 0, '', NaN
+// truthy values: NOT falsy values
+
+var height;
+height = 23;
+
+if (height || height ===0){
+	console.log('Variable is defiend');
+} else {
+	console.log('Variable is NOT been defiend')
+}
+
+
+// equelity operator
+
+if (height === '23') {
+	console.log ('The == operator does type coercion')
+}
 
 
 
