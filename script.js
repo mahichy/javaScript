@@ -586,7 +586,7 @@ console.log(tips, finalValues );
 */
 
 
-
+/*
 var john = {
 	firstName : 'John',
 	lastName : 'Smith',
@@ -616,7 +616,15 @@ jane.birthYear = 1968;
 jane.job = 'designer';
 
 console.log(jane);
+*/
 
+
+
+
+/*****************************
+* Class_26
+ Objects and Methods
+*/
 
 
 
