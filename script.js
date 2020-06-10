@@ -532,6 +532,13 @@ GOOD LUCK 😀
 * CODING CHALLENGE 3 Solution
 */
 
+
+
+
+/*
+
+
+
 function tipCalculator(bill){
 	var percentage;
 	if (bill < 50) {
@@ -557,6 +564,131 @@ var finalValues = [ bills[0] + tips[0],
 					bills[2] + tips[2] ];
 
 console.log(tips, finalValues );
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************
+* Class_25
+ Objects and Properties
+*/
+
+
+
+var john = {
+	firstName : 'John',
+	lastName : 'Smith',
+	birthYear : 1980 ,
+	family : ['Jane', 'Mark', 'Bob', 'Emily'],
+	job : 'Teacher',
+	isMarried : false
+};
+
+console.log(john);
+console.log(john.lastName);
+console.log(john.firstName);
+console.log(john['job']);
+console.log(john['birthYear']);
+var x = 'birthYear';
+console.log(john[x]);
+
+john.firstName = 'Jane';
+john['isMarried'] = true;
+console.log(john);
+
+// New Object syntex
+
+var jane = new Object();
+jane.firstName = 'Jane';
+jane.birthYear = 1968;
+jane.job = 'designer';
+
+console.log(jane);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
