@@ -668,6 +668,9 @@ GOOD LUCK 😀
 
 // C_28 Solution.......>>>>>>>
 
+/*
+
+
 var john = {
 	fullName: 'John Smith',
 	mass : 92,
@@ -700,6 +703,53 @@ if (john.calcBMI() > mark.calcBMI()) {
 } else {
 	console.log( ' They have the smae BMI.');
 };
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************
+	Loops and iteration
+*************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
