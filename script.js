@@ -728,7 +728,7 @@ if (john.calcBMI() > mark.calcBMI()) {
 
 // for loop
 
-/*
+
 
 for (var i = 0; i <= 10; i++) {
 	console.log(i)
@@ -750,7 +750,7 @@ while (i < jhon.length) {
 	i++
 }
 
-*/
+
 
 
 
@@ -760,7 +760,7 @@ while (i < jhon.length) {
 
 
 var jhon =['Jhon', 'Smith', 1990, 'designer', 'false', 'blue'];
-/*
+
 for (var i = 0; i < jhon.length; i++) {
 	if (typeof jhon[i] !== 'string') continue;
 	console.log(jhon[i]);
@@ -779,7 +779,6 @@ for (var i = jhon.length - 1; i >= 0; i-- ) {
 	console.log(jhon[i]);
 }
 
-*/
 var i = jhon.length - 1;
 while (i >= 0) {
 	console.log(jhon[i]);
