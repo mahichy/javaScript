@@ -719,13 +719,72 @@ if (john.calcBMI() > mark.calcBMI()) {
 
 
 /****************************************
+	C_ 29
 	Loops and iteration
 *************************************************/
+ 
+
+
+
+// for loop
+
+/*
+
+for (var i = 0; i <= 10; i++) {
+	console.log(i)
+}
+
+
+var jhon =['Jhon', 'Smith', 1990, 'designer', false];
+
+for (var i = 0; i < jhon.length; i++) {
+	console.log(jhon[i]);
+}
+
+
+// While loop
+
+var i = 0;
+while (i < jhon.length) {
+	console.log(jhon[i]);
+	i++
+}
+
+*/
 
 
 
 
+// Continue and break statements
 
+
+
+var jhon =['Jhon', 'Smith', 1990, 'designer', 'false', 'blue'];
+/*
+for (var i = 0; i < jhon.length; i++) {
+	if (typeof jhon[i] !== 'string') continue;
+	console.log(jhon[i]);
+}
+
+
+for (var i = 0; i < jhon.length; i++) {
+	if (typeof jhon[i] !== 'string') break;
+	console.log(jhon[i]);
+}
+
+
+// Looping Backwards
+
+for (var i = jhon.length - 1; i >= 0; i-- ) {
+	console.log(jhon[i]);
+}
+
+*/
+var i = jhon.length - 1;
+while (i >= 0) {
+	console.log(jhon[i]);
+	i--;
+}
 
 
 
