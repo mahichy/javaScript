@@ -892,8 +892,58 @@ var john = {
 	}
 }
 
+
+var mark = {
+	fullName : 'Mark Miller',
+	bills : [77, 475, 110, 45],
+	calcTips: function(){
+		this.tips = [];
+		this.finalValues = [];
+
+
+		for (var i = 0; i < this.bills.length; i ++ )
+		{
+			var percentege;
+			var bill = this.bills[i];
+
+			if (bill < 100) {
+				percentege = .2;
+			}else if (bill >=100 && bill < 300) {
+				percentege = .10;
+			}else {
+				percentege = .25;
+			}
+
+			this.tips[i] = bill + percentege;
+			this.finalValues[i] = bill + bill * percentege;
+		}
+	}
+}
+
+
+function calcAverage(tips) {
+	var sum = 0;
+	for (var i = 0; i < tips.length; i++) {
+		sum = sum + tips[i];
+	}
+	return sum / tips.length;
+}
+// [2, 6, 4]
+
+// Do the calculation
+
 john.calcTips();
-console.log(john);
+mark.calcTips();
+
+john.average = calcAverage(john.tips);
+mark.average = calcAverage(mark.tips);
+
+
+
+
+
+
+console.log(john, mark);
 
 
 
