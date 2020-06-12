@@ -824,6 +824,77 @@ GOOD LUCK 😀
 */
 
 
+// Solution
+
+
+/*
+var john = {
+	fullName: 'John Smith',
+	bills: [124, 48, 268, 180, 42],
+	calcTips: function() {
+		this.tips = [];
+		this.finalValues = [];
+
+
+		for (var i = 0; i < this.bills.length; i++) {
+			
+			// Determine percentege based on tipping rules
+			var percentege;
+			var bill = this.bills[i];
+
+			if (bill < 50) {
+				percentege = .2;
+			}else if(bill >= 50 && bill < 200) {
+				percentege = .15;
+			}else {
+				percentege = .1;
+			}
+
+
+
+
+			// Add result to the corresponding arrays
+			this.tips[i] = bill * percentege;
+			this.finalValues[i] = bill + bill * percentege;
+		}
+	}
+}
+
+john.calcTips();
+console.log(john);
+
+*/
+
+var john = {
+	fullName : 'John Smith',
+	bills : [124, 48, 268, 180, 42 ],
+	calcTips: function(){
+		this.tips = [];
+		this.finalValues = [];
+
+
+		for (var i = 0; i < this.bills.length; i ++ )
+		{
+			var percentege;
+			var bill = this.bills[i];
+
+			if (bill < 50) {
+				percentege = .2;
+			}else if (bill >=50 && bill < 200) {
+				percentege = .15;
+			}else {
+				percentege = .1;
+			}
+
+			this.tips[i] = bill + percentege;
+			this.finalValues[i] = bill + bill * percentege;
+		}
+	}
+}
+
+john.calcTips();
+console.log(john);
+
 
 
 
